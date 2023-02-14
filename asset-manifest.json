@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SneakerEcomerce_FE/static/css/main.b1136065.css",
+    "main.js": "/SneakerEcomerce_FE/static/js/main.8ec262da.js",
+    "index.html": "/SneakerEcomerce_FE/index.html",
+    "main.b1136065.css.map": "/SneakerEcomerce_FE/static/css/main.b1136065.css.map",
+    "main.8ec262da.js.map": "/SneakerEcomerce_FE/static/js/main.8ec262da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1136065.css",
+    "static/js/main.8ec262da.js"
+  ]
+}
