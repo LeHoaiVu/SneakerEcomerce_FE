@@ -144,13 +144,13 @@ const ListOrderedProducts = (props) => {
                                     Products Ordered
                                 </StyledTableCell>
                                 <StyledTableCell align="right">
-                                    {`Unit Price ($)`}
+                                    {`Unit Price (₫)`}
                                 </StyledTableCell>
                                 <StyledTableCell align="right">
                                     Amount
                                 </StyledTableCell>
                                 <StyledTableCell align="right">
-                                    {`Item Subtotal ($)`}
+                                    {`Item Subtotal (₫)`}
                                 </StyledTableCell>
                             </TableRow>
                         </TableHead>
@@ -238,7 +238,7 @@ const ListOrderedProducts = (props) => {
                             (totalPrice, nextShoesPrice) =>
                                 (totalPrice += nextShoesPrice.prodTotalPrice),
                             0
-                        )}`}</p>
+                        )} ₫`}</p>
                     </Grid>
                     <Grid item>
                         <p>Shipping Total: Free</p>
@@ -248,7 +248,7 @@ const ListOrderedProducts = (props) => {
                             (totalPrice, nextShoesPrice) =>
                                 (totalPrice += nextShoesPrice.prodTotalPrice),
                             0
-                        )}`}</p>
+                        )} ₫`}</p>
                     </Grid>
                 </Grid>
             </Paper>
