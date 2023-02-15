@@ -3,9 +3,17 @@
     margin: 0px;
     background-color: #f5f5f5;
     padding: 0px;
-    bottom: 0;
+    bottom: -10px;
     width: 100%;
     color: #1a0000;
+}
+
+.relative-footer {
+    position: relative;
+}
+
+.fixed-footer {
+    position: fixed;
 }
 
 .footer-content {

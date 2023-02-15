@@ -225,7 +225,7 @@ const MyShoppingCartPage = (props) => {
                                                 )}
                                             </TableCell>
                                             <TableCell align="left" colSpan={2}>
-                                                {`${cartShoesItem.price} $`}
+                                                {`${cartShoesItem.price} ₫`}
                                             </TableCell>
                                             <TableCell align="left">
                                                 <TextField
@@ -269,7 +269,7 @@ const MyShoppingCartPage = (props) => {
                                                 <Typography>{`${cartShoesItem.prodNumber}`}</Typography>
                                             </TableCell> */}
                                             <TableCell align="left" colSpan={2}>
-                                                <Typography>{`${cartShoesItem.prodTotalPrice} $`}</Typography>
+                                                <Typography>{`${cartShoesItem.prodTotalPrice} ₫`}</Typography>
                                             </TableCell>
                                         </TableRow>
                                     );

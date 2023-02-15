@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {
     AiFillFacebook,
     AiFillTwitterCircle,
@@ -6,10 +6,25 @@ import {
     AiFillApple,
 } from 'react-icons/ai';
 import { FaGooglePlay } from 'react-icons/fa';
+import { useLocation } from 'react-router-dom';
 
 const DefaultFooter = () => {
+    const current_path = useLocation();
+    useEffect(() => {
+        console.log(current_path.pathname.split('/'));
+    }, [current_path]);
     return (
-        <div className="footer">
+        <div
+            className={`footer ${
+                ['/login', '/register'].includes(current_path.pathname)
+                    ? 'relative-footer'
+                    : ''
+            } ${
+                current_path.pathname.split('/').includes('my-shopping-cart')
+                    ? 'fixed-footer'
+                    : ''
+            }`}
+        >
             <div>
                 <div className="footer-content">
                     <h3
